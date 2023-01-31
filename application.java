@@ -7,6 +7,7 @@ System.out.println("hello java4");
 }  
 }; 
 }}
+
 public class Largest {
 
     public static void main(String[] args) {
@@ -22,4 +23,18 @@ public class Largest {
         else
             System.out.println(n3 + " is the largest number.");
     }
+
+public class QuotientRemainder {
+
+  public static void main(String[] args) {
+
+    int dividend = 25, divisor = 4;
+
+    int quotient = dividend / divisor;
+    int remainder = dividend % divisor;
+
+    System.out.println("Quotient = " + quotient);
+    System.out.println("Remainder = " + remainder);
+  }
+
 }
